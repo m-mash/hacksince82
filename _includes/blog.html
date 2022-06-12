@@ -1,0 +1,11 @@
+<article>
+  <header><h1>{{ include.title | default: page.title }}</h1></header>
+  <ul class="archive">
+    {% for item in site.posts %}
+    <li>
+      <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%Y-%m-%d" }}</time>
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</article>

@@ -1,0 +1,10 @@
+<article>
+  <header><h1>{{ include.title | default: page.title }}</h1></header>
+  <ul class="archive">
+    {% for item in site.target | sort: "title" %}
+    <ul>
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    </ul>
+    {% endfor %}
+  </ul>
+</article>

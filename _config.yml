@@ -1,0 +1,53 @@
+title: "hack since 82"
+author: "mmash"
+description: "by <b>mmash</b>"
+permalink: /:title/
+lang: "jp"
+excerpt_separator: "\n\n\n"
+date_format: "%Y/%m/%d"
+
+# Layout
+
+show_excerpts: true        # show article excerpts on the home page
+show_frame: false           # adds a gray frame to the site
+show_sidebar: true        # show a sidebar instead of the usual header
+minimal: true             # use a dark header
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.md", title: "Home", url: "/", icon: "home"}
+  - {file: "blog.md", title: "Blog", url: "/blog/", icon: "newspaper"}
+  - {file: "target.md", title: "Target", url: "/target/", icon: "crosshairs"}
+  - {file: "tool.md", title: "Tool",  url: "/tool/", icon: "tools"}
+  - {file: "review.md", title: "Review", url: "/review/", icon: "star"}
+  - {file: "about.md", title: "About", url: "/about/", icon: "address-card"}
+
+# Set permalink of posts under blog dir 
+defaults:
+  - scope:
+      type: "posts"
+    values:
+      permalink: /blog/:title/
+
+# Collections
+collections:
+  review:
+    output: true
+  target:
+    output: true
+  tool:
+    output: true
+
+
+# external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+#   - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
+#   - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
+#   - {title: Subscribe, icon: rss, url: "/feed.xml"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed
