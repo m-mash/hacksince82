@@ -6,7 +6,7 @@
   <ul class="archive">
     {% for item in site.posts limit: 10 %}
     <li>
-      <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%Y-%m-%d" }}</time>
+      <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%Y/%m/%d" }}</time>
       <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
     </li>
     {% endfor %}
@@ -19,7 +19,7 @@
     <li>
       <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <time datetime="{{ item.updated | date_to_xmlschema }}">{{ item.date | date: "%Y-%m-%d" }}</time>
+      <time datetime="{{ item.updated | date_to_xmlschema }}">{{ item.date | date: "%Y/%m/%d" }}</time>
       updated
     </li>
     {% endfor %}
@@ -32,7 +32,7 @@
     <li>
       <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <time datetime="{{ item.updated | date_to_xmlschema }}">{{ item.date | date: "%Y-%m-%d" }}</time>
+      <time datetime="{{ item.updated | date_to_xmlschema }}">{{ item.date | date: "%Y/%m/%d" }}</time>
       updated
     </li>
     {% endfor %}
