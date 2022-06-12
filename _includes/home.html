@@ -2,7 +2,7 @@
 <article>
 
 
-  <h2><a href="/blog/">Blog</a></h2>
+  <h2><a href="{{ site.baseurl }}/blog/">Blog</a></h2>
   <ul class="archive">
     {% for item in site.posts limit: 10 %}
     <li>
@@ -12,7 +12,7 @@
     {% endfor %}
   </ul>
 
-  <h2><a href="/target/">Target</a></h2>
+  <h2><a href="{{ site.baseurl }}/target/">Target</a></h2>
   <ul class="archive">
     {% assign list = site.target | sort: 'updated' | reverse %}
     {% for item in list limit:10 %}
@@ -25,7 +25,7 @@
     {% endfor %}
   </ul>
 
-  <h2><a href="/target/">Tool</a></h2>
+  <h2><a href="{{ site.baseurl }}/target/">Tool</a></h2>
   <ul class="archive">
     {% assign list = site.tool | sort: 'updated' | reverse %}
     {% for item in list limit:10 %}
