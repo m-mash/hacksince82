@@ -39,4 +39,4 @@ wpscan --url <target_url> -usernames <username> -P <password_list>
 
 ## references
 
-https://github.com/wpscanteam/wpscan/wiki/WPScan-User-Documentation
+[https://github.com/wpscanteam/wpscan/wiki/WPScan-User-Documentation](https://github.com/wpscanteam/wpscan/wiki/WPScan-User-Documentation)
