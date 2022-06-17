@@ -2,11 +2,11 @@
 layout: post
 title: wpscan
 tags: cheatsheet wpscan wordpress cms plugin
-created: 2022-06-13
-updated: 2022-06-13
+published: 2022-06-13
+updated: 
 ---
 
-## 基本的な使い方
+## 基本
 
 プラグイン、テーマ、timthumb、ユーザ、コンフィグバックアップ、DBエクスポートを列挙する
 ```

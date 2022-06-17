@@ -2,8 +2,8 @@
 layout: post
 title: nmap
 tags: nmap enumeration reconnaissance scan 
-created: 2022-06-17
-updated: 2022-06-17
+published: 2022-06-17
+updated: 
 ---
 
 ## 基本
