@@ -1,6 +1,7 @@
 ---
 title: "hello world"
-layout: post
+layout: post_blog
+tags: 
 ---
 
 

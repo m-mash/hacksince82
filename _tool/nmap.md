@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_general
 title: nmap
 tags: nmap enumeration reconnaissance scan 
 published: 2022-06-17

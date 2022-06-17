@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_general
 title: wpscan
 tags: cheatsheet wpscan wordpress cms plugin
 published: 2022-06-13

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_general
 title: wordpress
 tags: wordpress web cms wpscan xmlrpc
 published: 2022-06-10
