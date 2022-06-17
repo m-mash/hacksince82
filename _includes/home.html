@@ -2,7 +2,7 @@
 <article>
 
 
-    <h2><a href="{{ site.baseurl }}/blog/">Blog</a></h2>
+    <h2><a href="{{ "/blog/" | relative_url }}">Blog</a></h2>
     <ul class="archive">
         {% for item in site.posts limit: 10 %}
         <li>
@@ -12,28 +12,32 @@
         {% endfor %}
     </ul>
 
-    <h2><a href="{{ site.baseurl }}/target/">Target</a></h2>
+    <h2><a href="{{ "/target/" | relative_url }}">Target</a></h2>
     <ul class="archive">
         {% assign list = site.target | sort: 'updated' | reverse %}
         {% for item in list limit:10 %}
         <li>
             <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <time datetime="{{ item.updated | date_to_xmlschema }}">{{ item.updated | date: "%Y/%m/%d" }}</time>
+            {% if item.updated %}
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <time datetime="{{ item.updated | date_to_xmlschema }}">{{ item.updated | date: "%Y/%m/%d" }}</time>
             updated
+            {% endif %}
         </li>
         {% endfor %}
     </ul>
 
-    <h2><a href="{{ site.baseurl }}/target/">Tool</a></h2>
+    <h2><a href="{{ "/tool/" | relative_url }}">Tool</a></h2>
     <ul class="archive">
         {% assign list = site.tool | sort: 'updated' | reverse %}
         {% for item in list limit:10 %}
         <li>
             <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% if item.updated %}
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <time datetime="{{ item.updated | date_to_xmlschema }}">{{ item.updated | date: "%Y/%m/%d" }}</time>
             updated
+            {% endif %}
         </li>
         {% endfor %}
     </ul>
