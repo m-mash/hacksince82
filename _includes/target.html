@@ -4,11 +4,11 @@
     {% for item in site.target | sort: "title" %}
     <ul>
       <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-    </ul>
     {% if item.updated %}
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <time datetime="{{ item.updated | date_to_xmlschema }}">{{ item.updated | date: "%Y/%m/%d" }}</time>
     {% endif %}
+    </ul>
     {% endfor %}
   </ul>
 </article>
