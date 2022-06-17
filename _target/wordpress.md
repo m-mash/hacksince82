@@ -2,7 +2,7 @@
 layout: post
 title: wordpress
 tags: wordpress web cms wpscan xmlrpc
-published: "2022-06-10"
+published: 2022-06-10
 updated: 
 ---
 
