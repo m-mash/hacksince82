@@ -1,6 +1,6 @@
 ---
 layout: post_blog
-tags: windows "portable executable"
+tags: windows "portable executable" pefile icoutils
 ---
 
 [マルウエアデータサイエンス本](https://www.amazon.co.jp/%E3%83%9E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A2-%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%AE%E6%A4%9C%E5%87%BA%E3%81%A8%E5%88%86%E6%9E%90-Joshua-Saxe-ebook/dp/B07Z61K4RH)を読み始めて少し触れたので、
