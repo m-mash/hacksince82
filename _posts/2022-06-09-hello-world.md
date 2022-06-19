@@ -1,6 +1,6 @@
 ---
 layout: post_blog
-tags: hello world
+tags: "hello world"
 ---
 
 
