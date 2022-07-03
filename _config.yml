@@ -51,3 +51,6 @@ comments:
 
 plugins:
  - jekyll-feed
+
+# Google Analytics
+google_analytics: true
