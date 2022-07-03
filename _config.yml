@@ -51,6 +51,7 @@ comments:
 
 plugins:
  - jekyll-feed
+ - jekyll-sitemap
 
 # Google Analytics
 google_analytics: true
