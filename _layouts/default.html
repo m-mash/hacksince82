@@ -37,6 +37,10 @@
     src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
 {% if site.show_sidebar or site.sidebar %}{% include sidebar.html %}{% endif %}
 
+<!--- SEO TAG setting start -->
+{% seo title=false %}
+<!--- SEO TAG setting start -->
+
 <!--- GA setting start -->
 {% if site.google_analytics %}{% include ga4.html %}{% endif %}
 <!--- GA setting end -->

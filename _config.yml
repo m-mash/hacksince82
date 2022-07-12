@@ -52,6 +52,10 @@ comments:
 plugins:
  - jekyll-feed
  - jekyll-sitemap
+ - jekyll-seo-tag
+ - jemoji
+
+# host: 0.0.0.0
 
 # Google Analytics
 google_analytics: true
