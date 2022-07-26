@@ -1,6 +1,6 @@
 ---
 layout: post_general
-title: John the Ripper - Rule Based Atack
+title: john the ripper - Rule Based Atack
 tags: john jtr crack password hash 'rule based attack'
 published: 2022-07-26:w
 updated:
