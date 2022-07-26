@@ -13,7 +13,7 @@ updated:
 |コマンド|説明|
 |---|---|
 |b `line_num` / b `func_name`|breakpointをセット|
-|tbreak `line_num` / tbreak `func_name`|tenporaly breakpointをセット|
+|tbreak `line_num` / tbreak `func_name`|temporary breakpoint(一度ヒットしたら直後にdisableになる)をセット|
 |info b | brakpointの一覧|
 |disable `breakpoint_num`|指定されたbreakpointを無効化する|
 |enable `breakpoint_num`|指定されたbreakpointを有効化する|
@@ -163,7 +163,7 @@ Num     Type           Disp Enb Address            What
 5       watchpoint     keep y                      buffer
 ```
 
-## referencess
+## References
 
 - [rkubik/cheat_sheet.txt](https://gist.github.com/rkubik/b96c23bd8ed58333de37f2b8cd052c30)
 - [pwndbg](https://github.com/pwndbg/pwndbg)

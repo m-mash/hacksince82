@@ -511,7 +511,7 @@ strings xxx.exe
 - Webサーバの機能を持っていて外部からの通信を待ち受けることができそう
 など。
 
-# references
+# References
 
 - [Microsoft Docs](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format)
 - [corkami](https://web.archive.org/web/20150821170441/https://code.google.com/p/corkami/wiki/PE#NT_Headers_('PE_Header'))

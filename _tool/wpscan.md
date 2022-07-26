@@ -37,6 +37,6 @@ wpscan --url <target_url> -usernames <username> -P <password_list>
 ```--url```の指定を変えるとうまくいくかもしれない。```https://example.com/wordpress/```みたいに```wordpress```まで含めてみる
 
 
-## references
+## References
 
 [https://github.com/wpscanteam/wpscan/wiki/WPScan-User-Documentation](https://github.com/wpscanteam/wpscan/wiki/WPScan-User-Documentation)
